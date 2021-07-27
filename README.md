@@ -46,7 +46,7 @@
     - Next add "Passport::routes()" in AuthServiceProvider class. <br/><br/>
     for more information visit : https://laravel.com/docs/8.x/passport 
     
-    <br/></br>
+    
 4. Created the <b>login</b> function in UserController to get <b>accessToken</b>. we need to provide this accessToken when calling dateweekfinder api.<br/>
    
    
