@@ -63,7 +63,7 @@
     - Enter command "php artisan db:seed". it will seed the user(name:'admin', email:'admin@example.com', password:'admin123') to user table from UserSeeder class.<br/><br/>
     - Start apache2 web server.<br/><br/>
     - Start the application server using "php artisan serve" command.<br/><br/>
-     <h5>Run the API</h5>
+     <h4>Run the API</h4>
 - First authenticate and get accessToken. <br/>
         <b>Endpoint : localhost:8000/api/login.</b> <br/>
         Request payload :
