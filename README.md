@@ -21,4 +21,4 @@
   
   
 3.Install and setup laravel:
-  <p>Laravel is php framework that supports singleton-pattern with MVC based architecture.</p>
+  <p>Laravel is php framework that supports web based application. laravel is powerful framework, it follows singleton pattern with MVC based architecture. laravel also support prominent feature Eloquent. it is a ORM(object-relation-mapping) where models are mapped to the database table. for more info visit :https://laravel.com/</p>
