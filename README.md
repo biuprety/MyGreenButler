@@ -112,3 +112,9 @@ Response :
     "created": true
 }
     
+
+
+<h3>Run Laravel Test</h3>
+=============================== <br/>
+The test class named DayWeekFinderTest.php is in /tests folder in root directory. this class contain simple api testing. <br/><br/>
+To run enter command "php artisan test".
