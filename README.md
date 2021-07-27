@@ -66,7 +66,7 @@
      <h5>Run the API</h5>
      - First authenticate and get accessToken <br/>
         endpoint : localhost:8000/api/login <br/>
-        ```json <p>request payload : {
+        ``` <p>request payload : {
                 "email":"admin@example.com",
                 "password":"admin123"
             }</p>
