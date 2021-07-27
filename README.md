@@ -17,4 +17,8 @@
 
 2.Install and setup composer:
   <p>Composer is dependency manager for php based application</p>
+  <p>You can download the composer via https://getcomposer.org/download/</p>
   
+  
+3.Install and setup laravel:
+  <p>Laravel is php framework that supports singleton-pattern with MVC based architecture.</p>
