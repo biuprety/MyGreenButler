@@ -62,4 +62,12 @@
     - Enter command "php artisan migrate". it will create all the tables from migration files required for user and laravel passport. <br/><br/>
     - Enter command "php artisan db:seed". it will seed the user(name:'admin', email:'admin@example.com', password:'admin123') to user table from UserSeeder class.<br/><br/>
     - Start apache2 web server.<br/><br/>
-    - Start the application server using "php artisan serve".<br/><br/>
+    - Start the application server using "php artisan serve" command.<br/><br/>
+     <h5>Run the API</h5>
+     - First authenticate and get accessToken <br/>
+        endpoint : localhost:8000/api/login <br/>
+        <p>request payload : {
+                "email":"admin@example.com",
+                "password":"admin123"
+            }</p>
+         
