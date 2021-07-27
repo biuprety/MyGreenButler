@@ -67,9 +67,5 @@
      - First authenticate and get accessToken <br/>
         endpoint : localhost:8000/api/login <br/>
         ``` 
-        request payload : {
-                "email":"admin@example.com",
-                "password":"admin123"
-            }
-            
+        hello
          ```
