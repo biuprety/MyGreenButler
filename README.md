@@ -27,3 +27,6 @@
 
 <br/>
 <h3>Implementation</h3>
+===============================
+1. Create api controller <b>DayWeekFinderController</b><br/>
+    -php artisan make:controller DayWeekFinderController --api
