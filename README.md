@@ -38,11 +38,15 @@
    - This method response the number of days and number of weeks in between fromdate and todate.<br/>
    - This method use laravel <b>Validator</b> to validate input parameter.<br/>
    - This method use third party <b>Carbon</b> plugin to calculate the number of week and days. Carbon help to quickly play around the date related calculation. it utilize PHP DateTime class.<br/><br/>
-3. Create laravel authentication using <b>laravel passport</b>:
+3. Created laravel authentication using <b>laravel passport</b>:
     - install laravel passport (composer require laravel/passport).<br/>
     - "php artisan migrate" (this will create table in database for setting up authentication tables).<br/>
     - "php artisan passport:install" (This command will create the encryption keys needed to generate secure access tokens).<br/>
     - Then need to add "use HasApiTokens" trait in user model.<br/>
     - Next add "Passport::routes()" in AuthServiceProvider class. <br/><br/>
-    for more information visit : https://laravel.com/docs/8.x/passport
+    for more information visit : https://laravel.com/docs/8.x/passport 
+    
+    <br/></br>
+4. Created the <b>login</b> function in UserController to get <b>accessToken</b>. we need to provide this accessToken when calling dateweekfinder api.<br/>
+   
    
