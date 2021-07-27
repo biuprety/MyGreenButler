@@ -65,12 +65,13 @@
     - Start the application server using "php artisan serve" command.<br/><br/>
      <h5>Run the API</h5>
      - First authenticate and get accessToken <br/>
-        endpoint : localhost:8000/api/login <br/>
-         
-       
-            
-             request payload : {
+        Endpoint : localhost:8000/api/login <br/>
+        Request payload :
+     
+              {
                 "email":"admin@example.com",
                 "password":"admin123"
             }
          
+
+        Response
