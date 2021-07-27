@@ -32,4 +32,9 @@
 1. Created api controller <b>DayWeekFinderController</b><br/><br/>
     -"php artisan make:controller DayWeekFinderController --api" (php artisan is laravel based cli command line)<br/>
     -moved the create controller to Http/Controllers/Api/<br/><br/>
-2. Created the method <b>dayWeekFinder</b> in controller.     
+2. Created the method <b>dayWeekFinder</b> in controller.<br/>
+   - This method takes the http request and return json response. <br/>
+   - This method takes fromdate (datetime format), todate (datetime format) and timezone (for eg:Australia/Sydney) request parameter.<br/>
+   - This method response the number of days and number of weeks in between fromdate and todate.<br/>
+   - This method use laravel <b>Validator</b> to validate input parameter.<br/>
+   - This method use third party <b>Carbon<b/> plugin to calculate the number of week and days. Carbon help to quickly play around the date related calculation. it utilize PHP DateTime class.
