@@ -90,7 +90,7 @@ Response :
 }
 
 - Second run the day week finder api, don't forget to put the accesssToken in request header . <br/>
-    <b> Endpoint : localhost:800/api/day-week-finder?fromdate=2021-01-01 10:23:12&todate=2021-02-01 10:21:22&timezone=Australia/Sydney</b>.<br/>
+    <b> Endpoint : localhost:8000/api/day-week-finder?fromdate=2021-01-01 10:23:12&todate=2021-02-01 10:21:22&timezone=Australia/Sydney</b>.<br/>
     Request header :
     
             {
