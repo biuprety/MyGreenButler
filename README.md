@@ -56,4 +56,4 @@
  
  <h3>Run the application</h3>
 =============================== <br/>
- 
+ - Clone this repo using "git clone 
