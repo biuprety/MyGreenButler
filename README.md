@@ -74,4 +74,17 @@
             }
          
 
-        Response
+
+Response :
+            
+             {
+    "user": {
+        "id": 1,
+        "name": "admin",
+        "email": "admin@example.com",
+        "email_verified_at": null,
+        "created_at": "2021-07-27T07:16:50.000000Z",
+        "updated_at": "2021-07-27T07:16:50.000000Z"
+    },
+    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNDYyOWExNzU4M2FjNThkNzY4OTQwYTZlYTUzN2VkNWM3MDcxZDJiODgxNGQ2OWU0ZDc1ZTdhZjUzNmIzZTc4ZmI5MGFhNTVlNWQzN2I5MmIiLCJpYXQiOjE2MjczNzA0NzIuNTIwMjE5LCJuYmYiOjE2MjczNzA0NzIuNTIwMjIzLCJleHAiOjE2NTg5MDY0NzIuNTA5NTM1LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.lXESQ1CY1vQByvxt38kNfGxoFrALgYVDLtTGTrL0ApbePJxv3Ms-YkDxy8cfKPDEjaPARZANXHzzU-hzK0JC4a5svLujMLIn1PM8hSPSywF6Q1DDk77qaMDPIZBiYgOyB8ootDAIWp98IyrJQ8OlO6AqNOQehwUvlz7qldGJKneZLhbCVglrDHji6x_CAc3WV0rHRMgZ22JmfdQHg-vCS2zhg2Uh88kZXDSwPmL8ZnH_lkGxmBmOQE2acwi8O_JwMWQtF2VRBgXpFv37ZiJbatuwYUKwGgpFDQPyYtf3pkC56GnqIU-f3GyQH5jJMwvkSyPOvHZCGV1FB0Xmy2avLWXMLljibd63AvY8F5O5xUnYEblpRhvuJoC1d4zD4LGcciiofT-1wIOUNFXry1ivSqGh2KWaNmOTuLWHk1HKtNxVlH-h3tcvK3bVSoaLDCKChrOJp8YmnXRjkRWr7KRUtMPXlnsDsKMB4Hw9Tsh4vWK2yyEXtMDb6WxTd99_KVSEuaf4OGdIpJ9LH-FdUL-hZLdx4xw92tnPR7SWzt0OHFODgywI33iF3zkcXSQLmAOBZDtwnFF_Oc5AqdGRYAPRO2RHzDYtD9xcNrNcoKc7l6giWX1AAf7IBx1mhVCa5n2P0ALZr8n05ogdR1XGl8B_YLxr2FwOyc94FZ-b7KKSXSU"
+}
