@@ -52,5 +52,8 @@
 
 5. Created the rest api endpoint under routes/api.php <br/>
     - "/day-week-finder" is a get http request that is mapped to <b>dayWeekFinder</b> function of <b>DayWeekFinderController.</b> auth:api middleware is used, so that only authenticated users can make a request for this api. <br/>
-    - "/login" is a post http request that is mapped to <b>login</b> function of <b>UserController.</b>
-   
+    - "/login" is a post http request that is mapped to <b>login</b> function of <b>UserController.</b> <br/> <br/>
+ 
+ <h3>Run the application</h3>
+=============================== <br/>
+ 
