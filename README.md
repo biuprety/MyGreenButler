@@ -29,7 +29,7 @@
 <h3>Implementation</h3>
 =============================== <br/>
 <p>As we know Laravel can be used as API server. There is api folder structure in laravel for residing all your api based controller.</p> 
-1. Created api controller <b>DayWeekFinderController</b><br/>
+1. Created api controller <b>DayWeekFinderController</b><br/><br/>
     -"php artisan make:controller DayWeekFinderController --api" (php artisan is laravel based cli command line)<br/>
-    -moved the create controller to Http/Controllers/Api/<br/>
+    -moved the create controller to Http/Controllers/Api/<br/><br/>
 2. Created the method <b>dayWeekFinder</b> in controller.     
