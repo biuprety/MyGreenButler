@@ -58,7 +58,7 @@
 =============================== <br/>
     - Clone this repo using "git clone https://github.com/biuprety/MyGreenButler.git".<br/><br/>
     - Go to project root directory and enter "composer install" command. it will install all of your dependencies. <br/><br/>
-    - Create a database named "myGreenButler". Database configuration is set in .env file in root directory. <br/><br/>
+    - Create a database named "myGreenButler", db user and password as 'root'. Database configuration is set in .env file in root directory. <br/><br/>
     - Enter command "php artisan migrate". it will create all the tables from migration files required for user and laravel passport. <br/><br/>
     - Enter command "php artisan passport:install". This command will create the encryption keys needed to generate secure access tokens. <br/><br/>
     - Enter command "php artisan db:seed". it will seed the user(name:'admin', email:'admin@example.com', password:'admin123') to user table from UserSeeder class.<br/><br/>
