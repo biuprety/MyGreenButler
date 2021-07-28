@@ -68,7 +68,7 @@
     - Start the application server using "php artisan serve" command.<br/><br/>
      <h4>Run the API</h4>
 - First authenticate and get accessToken. <br/>
-        <b>Endpoint : localhost:8000/api/login.</b> <br/>
+        <b>Endpoint : localhost:8000/api/login.</b> <br/> or you can use <b>AWS server</b> http://18.208.174.216/api/login
         Request type : POST <br/><br/>
         Request payload :
      
@@ -94,7 +94,7 @@ Response :
 }
 
 - Second run the day week finder api, don't forget to put the accesssToken in request header . it is a http get request so put the <b>fromdate</b> and <b>todate</b> in datetime format. <br/>
-    <b> Endpoint : localhost:8000/api/day-week-finder?fromdate=2021-01-01 10:23:12&todate=2021-02-01 10:21:22&timezone=Australia/Sydney</b>.<br/><br/>
+    <b> Endpoint : localhost:8000/api/day-week-finder?fromdate=2021-01-01 10:23:12&todate=2021-02-01 10:21:22&timezone=Australia/Sydney</b>.<br/><br/> or <b>AWS server</b> http://18.208.174.216/api/day-week-finder?fromdate=2021-01-01 10:23:12&todate=2021-02-01 10:21:22&timezone=Australia/Sydney
     Request type : GET <br/><br/>
     Request header :
     
