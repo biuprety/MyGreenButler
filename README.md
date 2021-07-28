@@ -14,6 +14,8 @@
       "sudo mysql_secure_installation" (for setting up credentials and configuration).<br/>
       "sudo apt install php libapache2-mod-php php-mbstring php-xmlrpc php-soap php-gd php-xml php-cli php-zip php-bcmath php-tokenizer php-json php-pear php-mysql php-gettext php-curl php-memcached php-xdebug php-intl php-fpm php-pgsql php-imap".
   </p>
+  
+  <b>Note: PHP version should be 7.4 or greater</b>
 
 2.Install and setup composer:
   <p>Composer is dependency manager for php based application</p>
